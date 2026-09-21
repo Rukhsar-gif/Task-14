@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="A random color palette generator with click-to-copy hex colors."
+    >
+
+    <meta
+        name="author"
+        content="Rukhsar Hussain"
+    >
+
+    <title>Color Palette Generator </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="page">
+
+        <section
+            class="palette-container"
+            aria-labelledby="page-title"
+        >
+
+            <header class="header">
+
+                <p class="task-label">
+                    VEDA TECHNOLOGY • TASK 14
+                </p>
+
+                <h1 id="page-title">
+                    Color Palette Generator
+                </h1>
+
+                <p class="description">
+                    Generate a random color palette and click any
+                    swatch to copy its hex code.
+                </p>
+
+            </header>
+
+
+            <section class="generator">
+
+                <button
+                    type="button"
+                    class="generate-button"
+                    id="generateButton"
+                >
+                    Generate New Palette
+                </button>
+
+
+                <p
+                    class="status-message"
+                    id="statusMessage"
+                    aria-live="polite"
+                ></p>
+
+
+                <div
+                    class="palette-grid"
+                    id="paletteGrid"
+                >
+                </div>
+
+            </section>
+            
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
